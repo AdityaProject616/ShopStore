@@ -78,5 +78,5 @@ const products = [
     numReviews: 12,
   },
 ]
-
-export default products
+// https://medium.com/@etherealm/named-export-vs-default-export-in-es6-affb483a0910
+module.exports = products
