@@ -7,14 +7,12 @@ import {
   ListGroup,
   Card,
   Button,
-  ListGroupItem,
   Form,
 } from "react-bootstrap";
 import Rating from "../components/Rating";
 import { useDispatch, useSelector } from "react-redux";
 import { listProductDetails } from "../action/productAction";
 import Loader from "../components/Loader";
-import Loading from "../components/Loading";
 import Message from "../components/Message";
 // import axios from "axios";
 // Fluid to keep image inside container
