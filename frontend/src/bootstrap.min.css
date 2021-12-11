@@ -5876,12 +5876,13 @@ fieldset:disabled .btn {
 }
 .carousel-indicators .active {
   opacity: 1;
+  background-color: #444;
 }
 .carousel-caption {
-  position: absolute;
-  right: 15%;
+  position: relative;
+  right: auto;
   bottom: 1.25rem;
-  left: 15%;
+  left: auto;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: #fff;
